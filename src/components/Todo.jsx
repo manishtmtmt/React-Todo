@@ -25,6 +25,7 @@ const Todo = () => {
       TodoApp
       <TodoInput addTodo={addTodo} />
       <TodoList todos={todos} deleteTodo={deleteTodo} />
+      <button>SHOW COMPLETED TO-DOS</button>
     </div>
   );
 };
